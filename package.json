@@ -12,7 +12,8 @@
     "pretest": "npm run lint",
     "test": "nyc mocha --recursive",
     "meta": "fabric-chaincode-node metadata generate",
-    "start": "fabric-chaincode-node start"    
+    "start": "fabric-chaincode-node start",
+    "build": "echo 'No build required for JS'"
   },
   "engineStrict": true,
   "author": "whitemat@uk.ibm.com",
